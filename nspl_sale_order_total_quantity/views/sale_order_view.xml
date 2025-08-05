@@ -1,0 +1,18 @@
+<odoo>
+    <record id="view_sale_order_form_inherit_quantity_summary" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.quantity.summary</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/notebook" position="after">
+                <group string="Sale Quantities" col="2">
+                    <field name="total_order_qty" readonly="1"/>
+                    <field name="total_delivered_qty" readonly="1"/>
+                    <field name="total_invoiced_qty" readonly="1"/>
+                    <field name="pending_delivery_qty" readonly="1"/>
+                    <field name="pending_invoice_qty" readonly="1"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
