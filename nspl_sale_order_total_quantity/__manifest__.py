@@ -1,6 +1,6 @@
 {
-    'name': 'Sale Order Total Quantity Summary',
-    'version': '18.0',
+    'name': 'sale Order total Quantity Summary',
+    'version': '19.0.1',
     'description': """
  Order Quantity Summary
 This module enhances the  Order form by adding a summary of key quantity fields for better tracking and decision making.
@@ -17,13 +17,14 @@ Key Features:
     'category': 'Sales',
     'sequence': 2,
     'author': 'Namah Softech Private Limited',
+    'support': 'support@namahsoftech.com',
+    'depends': ['sale_management'],
     'contributors': 'Mohit Nare',
     'website': 'http://namahsoftech.com/',
     'license': 'OPL-1',
     'price': 9.99,
     'currency': 'USD',
-    'support': 'support@namahsoftech.com',
-    'depends': ['sale_management'],
+
     'data': [
         'views/sale_order_view.xml',
     ],
