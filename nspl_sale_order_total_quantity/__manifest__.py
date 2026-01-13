@@ -1,5 +1,5 @@
 {
-    'name': 'sale Order total Quantity Summary',
+    'name': 'Sale Order total Quantity Summary',
     'version': '19.0.1',
     'description': """
  Order Quantity Summary
